@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.game-container {
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 450px;
+}
+
+.figure-container {
+  fill: midnightblue;
+  stroke: midnightblue;
+  stroke-width: 4px;
+  stroke-linecap:round;
+}
+
+body {
+  background-color: rgb(175, 216, 235);
+
+}
+
+line {
+  color: midnightblue
+}
+
+.hangman-image {
+  display: none;
+}
+
+.wrong-letters-container {
+  position: absolute;
+  top: 100px;
+  right: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrong-letters-container p {
+  margin: 0 0 5px;
+}
+
+.wrong-letters-container span {
+  font-size: 24px;
+}
+
+.word {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: midnightblue;
+}
+
+.letter {
+  color: gold;
+  font-weight: bold;
+  border-bottom: 3px solid midnightblue;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
+}
+
+.popup-container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+#popup-container {
+  display: none;
+}
+
+.popup-message {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  color: midnightblue;
+}
+
+.popup-button {
+  cursor: pointer;
+  background-color: midnightblue;
+  color: white;
+  font-style: italic;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: midnightblue;
+  font-size: 3rem;
+  font-family: Raleway;
+  text-decoration: underline;
+}
+
+h2 {
+  color: midnightblue;
+  font-size: 1.5rem;
+  font-family: Raleway;
+}
+
+p {
+  color: midnightblue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+span {
+  color: midnightblue;
+}
+
