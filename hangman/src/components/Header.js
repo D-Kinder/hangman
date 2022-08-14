@@ -11,3 +11,5 @@ const Header = () => {
 }
 
 export default Header
+
+//simple header added to top of screen

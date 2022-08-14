@@ -14,3 +14,8 @@ const Wrongletters = ({incorrectLetters}) => {
 }
 
 export default Wrongletters
+
+/*
+Acess to incorrectLetters needed so we can display which ones they are
+<p> just title saying wrong letters if there are any
+.map used to print each letter in the array, with space after for easier visuals */

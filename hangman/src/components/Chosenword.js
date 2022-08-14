@@ -15,3 +15,7 @@ const Chosenword = ({selectedWord, correctLetters}) => {
 }
 
 export default Chosenword
+
+/*
+props - selectedWord - so we can display the random word that was selected
+props - correctLetters - check correctLetters against word and display any letters that are present*/ 

@@ -22,6 +22,9 @@ return (
 )
 }
 
-
-
 export default Figure
+
+/*
+Each line is a section of the hangman
+if statement dealt with in-line, each one personalised so adds them in order
+need access to the incorrectLetters so we can see how many lives lost */

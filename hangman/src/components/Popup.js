@@ -29,3 +29,9 @@ const Popup = ({correctLetters, incorrectLetters, selectedWord, setPlayable, pla
 }
 
 export default Popup
+
+/*
+access to checkResult function so can check if win or lose 
+initial messages set to ""
+if win - give message and playable now false since game over
+if lose - give message and playable now false since game over */
